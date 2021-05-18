@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          depth: 0
+          fetch-depth: 0
 
       - name: Release
         uses: tudorrrrrr/releases-workflow@v0.0.1
