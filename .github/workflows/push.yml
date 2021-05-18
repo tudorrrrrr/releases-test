@@ -1,0 +1,16 @@
+on: [push]
+
+jobs:
+  testjob:
+    runs-on: ubuntu-latest
+    name: Test job
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          depth: 0
+
+      - name: Release
+        uses: tudorrrrrr/releases-workflow
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
