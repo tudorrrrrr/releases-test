@@ -10,7 +10,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Release
+      - id: release
+        name: Release
         uses: tudorrrrrr/releases-workflow@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update CHANGELOG
+        run: |
+          echo {{ steps.release.outputs.newTag }}
+          echo {{ steps.release.outputs.changelog }}
