@@ -11,6 +11,6 @@ jobs:
           fetch-depth: 0
 
       - name: Release
-        uses: tudorrrrrr/releases-workflow@v0.0.1
+        uses: tudorrrrrr/releases-workflow@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
