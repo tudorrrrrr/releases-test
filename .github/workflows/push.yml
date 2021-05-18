@@ -17,6 +17,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update CHANGELOG
-        run: |
-          echo -e ${{ steps.release.outputs.newTag }}
-          echo -e ${{ steps.release.outputs.changelog }}
+        run: echo -e "${{ steps.release.outputs.changelog }}\n$(cat CHANGELOG.md)" > CHANGELOG.md
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          default_author: github_actions
+          message: 'Update CHANGELOG.md'
+          push: true
+          tag: ${{ steps.release.outputs.newTag }}
