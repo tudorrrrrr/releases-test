@@ -23,6 +23,5 @@ jobs:
         with:
           default_author: github_actions
           message: 'Update CHANGELOG.md'
-          pull_strategy: '--rebase'
           push: true
           tag: ${{ steps.release.outputs.newTag }}
