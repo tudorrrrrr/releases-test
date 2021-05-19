@@ -1,4 +1,6 @@
 ## Unreleased
+- fix tag output ([commit](https://github.com/tudorrrrrr/releases-test/commit/7cbc56d999e33ef4903084e436b564f02a2d753c))
+## 2021.5.2
 - make release commit use newest tag ([commit](https://github.com/tudorrrrrr/releases-test/commit/ed0270e287a51b6b9a38968d844901999c5de022))
 
 ## 2021.5.1
