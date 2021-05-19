@@ -30,4 +30,4 @@ jobs:
         with:
           slack-bot-user-oauth-access-token: ${{ secrets.SLACK_BOT_USER_OAUTH_ACCESS_TOKEN }}
           slack-channel: C022DKHB03U
-          slack-text: ':robot_face: *New release*:\n${{ steps.update-version.outputs.changelog }}'
+          slack-text: ':rotating_light: *New release*\n\n${{ steps.update-version.outputs.changelog }}'
