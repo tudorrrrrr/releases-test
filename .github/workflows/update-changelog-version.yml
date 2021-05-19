@@ -25,7 +25,7 @@ jobs:
           branch: develop
           push: true
 
-      - run: echo ${{ steps.update-version.outputs.changelog }}
+      - run: echo -e ${{ steps.update-version.outputs.changelog }}
 
       # - name: Notify
       #   uses: archive/github-actions-slack@v2.0.0
