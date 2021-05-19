@@ -1,3 +1,6 @@
+## Unreleased
+- make release commit use newest tag ([commit](https://github.com/tudorrrrrr/releases-test/commit/ed0270e287a51b6b9a38968d844901999c5de022))
+
 ## 2021.5.1
 - last minute change ([commit](https://github.com/tudorrrrrr/releases-test/commit/7a0ac121eca43fd5db63be668c4991eb4f5b5efa))
 - final commit for this release [commit](https://github.com/tudorrrrrr/releases-test/commit/7f810ade13d8188260f57425c4aa81f26b8cec17)
