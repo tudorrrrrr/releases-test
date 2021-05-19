@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  testjob:
+    runs-on: ubuntu-latest
+    name: Push to changelog
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: tudorrrrrr/push-to-changelog@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filePath: './CHANGELOG.md'
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          default_author: github_actions
+          message: 'Update CHANGELOG.md'
+          push: true
