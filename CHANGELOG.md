@@ -1,4 +1,7 @@
 ## Unreleased
+- entry 1 ([commit](https://github.com/tudorrrrrr/releases-test/commit/079b2ee8c618db4597b42e90865e933d7610ea36))
+- entry 2 ([commit](https://github.com/tudorrrrrr/releases-test/commit/917856979073b7cec34df892864138616a50cc08))
+- entry 3 ([commit](https://github.com/tudorrrrrr/releases-test/commit/77b1755f5b209ae0b159774c30a03c91a163ff47))
 - fix changelog ([commit](https://github.com/tudorrrrrr/releases-test/commit/4514f62399ce7fc00ebe5e9f108241a63e40da52))
 ## 2021.5.3
 - fix tag output ([commit](https://github.com/tudorrrrrr/releases-test/commit/7cbc56d999e33ef4903084e436b564f02a2d753c))
