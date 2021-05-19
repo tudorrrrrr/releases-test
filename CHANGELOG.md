@@ -1,4 +1,6 @@
 ## Unreleased
+- entry 9 ([commit](https://github.com/tudorrrrrr/releases-test/commit/d7491148e369c13b49e0371b1ab476d19a3b064d))
+- entry 8 ([commit](https://github.com/tudorrrrrr/releases-test/commit/a840ba6115c6ec014c24476bf9effd78748decaf))
 - entry 7 ([commit](https://github.com/tudorrrrrr/releases-test/commit/947085f47c4005ba4faa7e33f4ee59e22f9c9b14))
 - entry 6 ([commit](https://github.com/tudorrrrrr/releases-test/commit/5f3fa8da6859f85d5d1c1a462fbc1693119bffb8))
 - entry 5 ([commit](https://github.com/tudorrrrrr/releases-test/commit/39a484d1ef33cadaf7c7ab25a161359151d656fe))
