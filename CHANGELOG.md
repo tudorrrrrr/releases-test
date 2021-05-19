@@ -1,4 +1,6 @@
 ## Unreleased
+- send slack message when changelog gets made ([commit](https://github.com/tudorrrrrr/releases-test/commit/e96fc9acf104b7957b9568a641ed52c65eac3ee5))
+## 2021.5.6
 - do something ([commit](https://github.com/tudorrrrrr/releases-test/commit/391962660073b7e063d6c93aecd8a8009e81a4ba))
 ## 2021.5.5
 - print changelog in action ([commit](https://github.com/tudorrrrrr/releases-test/commit/03e602aec56da0041b9d35bbfdb2f60c7655161f))
