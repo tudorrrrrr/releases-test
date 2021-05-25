@@ -16,6 +16,7 @@ jobs:
       - id: update-version
         uses: tudorrrrrr/update-changelog-version@main
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           filePath: './CHANGELOG.md'
           comparisonBranch: main
 
