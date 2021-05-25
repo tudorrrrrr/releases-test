@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filePath: './CHANGELOG.md'
-          comparisonBranch: main
+          comparisonBranch: 'refs/heads/main'
 
       - uses: EndBug/add-and-commit@v7
         with:
